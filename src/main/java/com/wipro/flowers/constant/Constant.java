@@ -2,7 +2,9 @@ package com.wipro.flowers.constant;
 
 public class Constant {
 
-    public static int POSITION = 4;
-    public static String VALUE = "1800Flowers";
+    private Constant(){}
+
+    public static final int POSITION = 3;
+    public static final String VALUE = "1800Flowers";
 
 }

@@ -1,6 +1,5 @@
 package com.wipro.flowers.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,12 +7,10 @@ import lombok.Setter;
 @Setter
 @Getter
 @Builder
-@AllArgsConstructor
-public class FlowersDTO {
+public class UpdateUserDTO {
 
-    private int userId;
-    private int id;
-    private String title;
+    private int position;
     private String body;
+    private String title;
 
 }
